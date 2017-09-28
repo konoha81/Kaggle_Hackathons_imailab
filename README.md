@@ -36,3 +36,7 @@ answer_files 内の answer.csv と predict.csv のラベルを比較し、以下
 $ python score_calculator.py
 Accuracy rate: 49.808058216777376 %
 ```
+
+predict.csv はデフォルトでは`No-show`列が空となっています。<br>
+score_calculator.py は`No-show`列が全て空の場合のみランダムで 0, 1 を入力して<br>
+answer.csv と比較した結果の正解率を出力します。ご自身の環境でちゃんと動くかのテストにお使いください。
