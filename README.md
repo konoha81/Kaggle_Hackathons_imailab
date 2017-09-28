@@ -4,14 +4,14 @@
 ├── README.md  <-- here
 └── hackathon
     ├── answer_files
-    │   ├── answer.csv
-    │   └── predict.csv
+    │   ├── answer.csv  (正解データ)
+    │   └── predict.csv  (予測データ)
     ├── data
-    │   ├── KaggleV2-May-2016.csv
-    │   ├── test_data.csv
-    │   └── train_data.csv
-    ├── data_randomsampling.ipynb
-    └── score_calculator.py
+    │   ├── KaggleV2-May-2016.csv  (元データ)
+    │   ├── test_data.csv  (テストデータ)
+    │   └── train_data.csv  (トレーニングデータ)
+    ├── data_randomsampling.ipynb  (data作成用。データが書き変わるので実行しない！)
+    └── score_calculator.py  (正解率計算用)
 ```
 
 <b>Medical Appointment No Shows</b><br>
