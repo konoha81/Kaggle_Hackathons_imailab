@@ -14,14 +14,18 @@
     └── score_calculator.py
 ```
 
-
-
 <b>Medical Appointment No Shows</b><br>
 https://www.kaggle.com/joniarroba/noshowappointments
 
+data/train_data: 80,570件<br>
+data/test_data: 29,957件<br>
 
-上記サイトよりダウンロードした csv より、<br>
-training data: 80,570件<br>
-test data: 29,957件<br>
-を抽出しました。
+正解データは answer_files 内の answer.csv に存在します。
 
+hackathonディレクトリ上で score_calculator.py を実行すると、<br>
+answer_files内のanswer.csvとpredict.csvのラベルを比較し、正解率を出力します。
+
+```bash
+$ python score_calculator.py
+Accuracy rate: 49.808058216777376 %
+```
