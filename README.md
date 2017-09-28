@@ -1,18 +1,18 @@
 # Kaggle_Hackathons_imailab
-
-.<br>
-├── README.md  <-- here <br>
-└── hackathon<br>
-    ├── answer_files<br>
-    │   ├── answer.csv<br>
-    │   └── predict.csv<br>
-    ├── data<br>
-    │   ├── KaggleV2-May-2016.csv<br>
-    │   ├── test_data.csv<br>
-    │   └── train_data.csv<br>
-    ├── data_randomsampling.ipynb<br>
-    └── score_calculator.py<br>
-
+```
+.
+├── README.md  <-- here
+└── hackathon
+    ├── answer_files
+    │   ├── answer.csv
+    │   └── predict.csv
+    ├── data
+    │   ├── KaggleV2-May-2016.csv
+    │   ├── test_data.csv
+    │   └── train_data.csv
+    ├── data_randomsampling.ipynb
+    └── score_calculator.py
+```
 
 
 
