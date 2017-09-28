@@ -21,7 +21,7 @@ data/train_data: 80,570件<br>
 data/test_data: 29,957件<br>
 
 train_data を利用して作成したモデルを test_data に適用することで、
-各`AppointmentID` に対する 0,1 ラベルを予想し、predict.csv を作成してください。
+各`AppointmentID` に対する `No-show`ラベルを予想し、predict.csv を作成してください。
 
 <b>answer_files/predict.csv</b>
 - 1行目はHeaderで、その後に29,957行 x 2列のデータのcsv
