@@ -21,9 +21,10 @@ def main():
         df = pd.merge(adf, pdf, on='AppointmentID')
     except:
         sys.exit('DataFrame Merge Error! \n' +
-        'Can not merge DataFrames with AppointmentID. ' +
+        'Can not merge DataFrames with the AppointmentID. ' +
         'Please check your csv file.')
-
+        
+    # データフレームの長さがおかしいときにエラーを吐く
     assert len(df.index) == len(adf), 'DataFrame length Error!'
 
     # 正解率を計算してreturnする
